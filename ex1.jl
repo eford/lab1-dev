@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.10
+# v0.20.4
 
 using Markdown
 using InteractiveUtils
@@ -33,7 +33,7 @@ Once a cell is executed, Pluto shows the output of each cell above the cell with
 For example,"""
 
 # ╔═╡ 25d5497c-3a67-4495-9f37-0bc8f2a64e68
-current_year = 2023
+current_year = 2025
 
 # ╔═╡ 774b2e4a-6cd7-4c9a-920d-b4f38354d42d
 md"""Strings are created by enclosing text between double quotes.  
@@ -42,7 +42,7 @@ For example,"""
 # ╔═╡ 5917df75-0dab-4778-917e-91bbfddbe03a
 begin
 	course_number = "Astro 528"
-	semester = "Fall 2023"
+	semester = "Fall 2025"
 	instructor = "Eric Ford"
 end
 
@@ -607,7 +607,7 @@ version = "17.4.0+2"
 # ╠═5917df75-0dab-4778-917e-91bbfddbe03a
 # ╟─0d15ba33-f2c4-46d6-9b08-9181d40596cd
 # ╠═dc0bf251-b3a6-42f7-84f6-796ac3761b2d
-# ╠═dbfceab2-994d-45a1-97ff-d978827bd129
+# ╟─dbfceab2-994d-45a1-97ff-d978827bd129
 # ╟─e2bb48e5-a2b2-42d7-a8e5-5c7532d62e93
 # ╠═cda49166-b9fb-4e68-8b3e-b97845c7bf3b
 # ╠═0c5d5b14-6c9a-4ac9-8126-0d6e1edba593
@@ -648,6 +648,6 @@ version = "17.4.0+2"
 # ╟─60348e2d-9943-486c-9061-3c5c3bf88883
 # ╟─98ecc733-15f3-4263-821a-483dadfc8ab8
 # ╟─ceff74da-4cd2-4091-af1a-8ecde8e13700
-# ╠═73a3ce7e-9967-4d11-8ab7-0e0409190975
+# ╟─73a3ce7e-9967-4d11-8ab7-0e0409190975
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002

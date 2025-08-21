@@ -18,21 +18,21 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        julia-version: ['1.9']
+        julia-version: ['1.11']
         julia-arch: [x64]
         os: [ubuntu-latest]
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Julia
-        uses: julia-actions/setup-julia@v1
+        uses: julia-actions/setup-julia@v2
         with:
           version: ${{ matrix.julia-version }}
           arch: ${{ matrix.julia-arch }}
       - name: Cache something
-        uses: julia-actions/cache@v1
+        uses: julia-actions/cache@v2
       # Commented out since lab notebooks aren't packages to be built
       - name: Build Package
         uses: julia-actions/julia-buildpkg@v1

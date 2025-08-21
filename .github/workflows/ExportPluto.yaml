@@ -26,7 +26,8 @@ jobs:
             - name: Install Julia
               uses: julia-actions/setup-julia@v2
               with:
-                  version: "1" # This will automatically pick the latest Julia version
+                  version: "1.11" # version being used for Fall 2025
+                  #version: "1" # This will automatically pick the latest Julia version
 
             - name: Cache Julia artifacts & such
               uses: julia-actions/cache@v2
