@@ -2,10 +2,10 @@
 
 ## Exercise 1
 #### Goal:  Learn the basics of core development tools
-For this first exercise, there will be very little coding, because we'll focus on getting used to using git, GitHub, Roar Collab Portal, Julia and the Pluto notebook environment.
+For this first exercise, there will be very little coding, because we'll focus on getting used to using git, GitHub, Lynx Portal, Julia and the Pluto notebook environment.
 
-Start at the course website where it offers [help getting setup to complete this lab using Roar Collab](https://psuastro528.github.io/Fall2025/tips/aci/initial_setup/).  A link that will trigger GitHub Classroom to create your private repository to start from was provided via Canvas.  
-Once you get a terminal on Roar Collab (or your local machine if you prefer), clone _your_ repository (and not the generic lab1-start).  Then start julia and Pluto, open the Pluto notebook in ex1.jl and start working through ex1.jl.
+Start at the course website where it offers [help getting setup to complete this lab using Lynx](https://psuastro528.github.io/Fall2025/tips/aci/initial_setup/).  A link that will trigger GitHub Classroom to create your private repository to start from was provided via Canvas.  
+Once you get a terminal on Lynx (or your local machine if you prefer), clone _your_ repository (and not the generic lab1-start).  Then start julia and Pluto, open the Pluto notebook in ex1.jl and start working through ex1.jl.
 
 ## Exercise 2
 #### Goal:  Experience the perils of floating point arithmetic
